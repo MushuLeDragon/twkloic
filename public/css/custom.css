@@ -1,0 +1,15 @@
+.hyphens-break {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 400px) {
+  .hyphens-break {
+  white-space: normal;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .my-name {
+    font-size: 4rem;
+  }
+}
